@@ -1,0 +1,19 @@
+:root { --pink:#f6c5d3; --pink-dark:#a74568; --ink:#28232a; }
+* { box-sizing:border-box; }
+body { margin:0; min-width:320px; color:var(--ink); font-family:Arial,Helvetica,sans-serif; background:linear-gradient(145deg,#fff 0%,#fff5f8 55%,#f6c5d3 100%); }
+.admin-shell { width:min(100%,900px); margin:auto; padding:34px 20px 70px; }
+.admin-header { display:flex; align-items:center; gap:22px; margin-bottom:26px; }
+.logo { width:105px; height:82px; object-fit:contain; mix-blend-mode:multiply; }
+.eyebrow { margin:0 0 8px; color:var(--pink-dark); text-transform:uppercase; letter-spacing:.16em; font-size:.72rem; font-weight:700; }
+h1,h2 { font-family:Georgia,serif; font-weight:500; } h1 { margin:0 0 8px; font-size:clamp(2rem,5vw,3.2rem); } h2 { margin:0 0 10px; font-size:1.7rem; }
+.admin-header p:last-child { margin:0; color:#6d5961; }
+.admin-card,.last-registration { padding:clamp(22px,5vw,42px); border:1px solid rgba(200,103,136,.22); border-radius:22px; background:rgba(255,255,255,.86); box-shadow:0 14px 40px rgba(125,65,84,.12); }
+.notice { display:flex; flex-direction:column; gap:5px; margin-bottom:25px; padding:13px 15px; border-left:4px solid var(--pink-dark); border-radius:8px; background:#fff0f4; color:#704b59; font-size:.84rem; }
+form { display:grid; gap:9px; } label { margin-top:7px; color:#684a56; font-size:.78rem; font-weight:700; }
+.form-grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; } .form-grid > div { display:grid; gap:9px; }
+input { width:100%; padding:14px; border:1px solid #e6bdc9; border-radius:10px; outline:none; font:inherit; background:#fffafd; }
+input:focus { border-color:var(--pink-dark); box-shadow:0 0 0 3px rgba(167,69,104,.13); }
+button { margin-top:16px; padding:15px 20px; border:0; border-radius:10px; color:#fff; background:var(--pink-dark); font:inherit; font-weight:700; cursor:pointer; }
+button:hover { background:#913b5c; } .message { min-height:22px; margin:5px 0 0; font-size:.85rem; }
+.last-registration { margin-top:22px; } .last-registration p { color:#6d5961; } .last-registration a { color:var(--pink-dark); font-weight:700; }
+@media (max-width:620px) { .admin-shell { padding:24px 12px 50px; } .admin-header { align-items:flex-start; gap:10px; } .logo { width:78px; height:65px; } .form-grid { grid-template-columns:1fr; gap:0; } }

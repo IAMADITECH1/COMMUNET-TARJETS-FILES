@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6c5d3">
+  <title>Tarjeta de fidelización | Bicha Studios</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="card-stage" aria-label="Tarjeta digital de fidelización">
+      <div class="phase-image-frame">
+        <img src="Fase Inicial.png" alt="Tarjeta de fidelización de Bicha Studios" class="phase-image">
+        <div class="phase-overlay" aria-label="Datos dinámicos de la tarjeta">
+          <span id="clientName">Nombre de clienta</span>
+          <span class="overlay-folio">Folio: <strong id="clientFolio">BS-DEMO-001</strong></span>
+          <div class="overlay-stamps" id="stamps" aria-label="Sellos acumulados"></div>
+        </div>
+      </div>
+    </section>
+    <section class="registration-panel" aria-labelledby="registration-title">
+      <div>
+        <p class="eyebrow">Panel de demostración</p>
+        <h1 id="registration-title">Registrar visita</h1>
+        <p class="panel-copy">Esta pantalla representa el formulario que usará la administradora después de escanear el QR.</p>
+      </div>
+      <form id="visitForm">
+        <label for="nameInput">Nombre de la clienta</label>
+        <input id="nameInput" name="name" type="text" placeholder="Ej. Mariana López" required>
+        <label for="ticketInput">Folio del ticket</label>
+        <input id="ticketInput" name="ticket" type="text" placeholder="Ej. T-10482" required>
+        <label for="partnerInput">Socia que realizó el servicio</label>
+        <input id="partnerInput" name="partner" type="text" placeholder="Ej. Andrea" required>
+        <button type="submit">Registrar visita</button>
+        <p id="formMessage" class="form-message" role="status"></p>
+      </form>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
