@@ -8,8 +8,8 @@ body { margin:0; min-width:320px; color:var(--ink); font-family:Arial,Helvetica,
 .phase-overlay { position:absolute; left:18%; top:32.5%; width:64%; height:24%; color:#a74568; text-align:center; line-height:1.2; pointer-events:none; }
 .phase-overlay > span:first-child { position:absolute; top:0; left:5%; width:90%; overflow:hidden; font-family:Georgia,serif; font-size:clamp(.85rem,2.4vw,1.35rem); font-weight:700; white-space:nowrap; text-overflow:ellipsis; }
 .overlay-folio { position:absolute; top:16%; left:5%; width:90%; font-size:clamp(.5rem,1.2vw,.72rem); }
-.overlay-stamps { position:absolute; top:25%; left:11%; display:grid; grid-template-columns:repeat(5,1fr); gap:clamp(6px,1.5vw,14px); width:78%; }
-.overlay-stamp { display:grid; place-items:center; aspect-ratio:1; border:2px solid #d17996; border-radius:50%; color:#d17996; font-size:clamp(.7rem,2vw,1.35rem); line-height:1; }
+.overlay-stamps { position:absolute; top:23%; left:8%; display:grid; grid-template-columns:repeat(4,1fr); gap:clamp(8px,2vw,18px); width:84%; }
+.overlay-stamp { display:grid; place-items:center; aspect-ratio:1; border:2px solid #d17996; border-radius:50%; color:#d17996; font-size:clamp(1rem,3vw,2rem); line-height:1; }
 .overlay-stamp.filled { color:#fff; background:#d17996; }
 .eyebrow { margin:0 0 8px; color:var(--pink-dark); text-transform:uppercase; letter-spacing:.18em; font-size:.72rem; font-weight:700; }
 .panel-copy { color:#6d5961; }
@@ -21,3 +21,5 @@ input:focus { border-color:var(--pink-deep); box-shadow:0 0 0 3px rgba(200,103,1
 button { margin-top:8px; padding:14px 18px; border:0; border-radius:10px; color:#fff; background:var(--pink-dark); font:inherit; font-weight:700; cursor:pointer; }
 button:hover { background:#913b5c; } .form-message { min-height:20px; margin:4px 0 0; color:#5c7a54; font-size:.82rem; }
 @media (max-width:680px) { .app-shell { padding:10px 10px 50px; } .registration-panel { grid-template-columns:1fr; } }
+
+.reward-view{display:grid;gap:8px;width:min(100%,560px);margin:18px auto 0;padding:18px;text-align:center;border:2px solid #d17996;border-radius:18px;background:linear-gradient(135deg,#fff4f7,#f8d4df);color:#7b3e55;box-shadow:0 10px 24px rgba(125,65,84,.14)}.reward-view strong{font-family:Georgia,serif;font-size:1.35rem;color:#a74568}.reward-view span{font-size:.9rem}.reward-view b{font-size:.92rem}
