@@ -7,12 +7,11 @@
 </head>
 <body>
   <main class="signup-shell">
-    <header class="signup-header"><img src="LOGO BICHA.png" alt="Bicha Studios" class="logo"><p class="eyebrow">Bicha Studios</p><h1>Afíliate a nuestra tarjeta</h1><p>Registra tus datos y recibe tu tarjeta de fidelización personalizada.</p></header>
+    <header class="signup-header"><img src="LOGO BICHA.png" alt="Bicha Studios" class="logo"><h1>Afíliate a nuestra tarjeta</h1><p>Registra tus datos y recibe tu tarjeta de fidelización personalizada.</p></header>
     <section class="signup-card">
       <form id="clientForm"><label for="name">Nombre completo</label><input id="name" name="name" type="text" placeholder="Ej. Mariana López" autocomplete="name" required><label for="phone">Número de teléfono</label><input id="phone" name="phone" type="tel" placeholder="Ej. 999 000 0000" autocomplete="tel" required><label class="consent"><input id="consent" type="checkbox" required><span>Acepto registrarme en el programa de fidelización de Bicha Studios.</span></label><button type="submit">Crear mi tarjeta</button><p id="formMessage" class="message" role="status"></p></form>
       <div id="success" class="success" hidden><p class="eyebrow">Registro completado</p><h2>Tu tarjeta está lista</h2><p>Guarda este QR. Te llevará directamente a tu tarjeta personalizada.</p><p class="folio-label">Tu folio</p><strong id="folio" class="folio"></strong><img id="qrImage" class="qr" alt="QR personal de la tarjeta"><a id="cardLink" class="secondary-button" href="index.html">Abrir mi tarjeta</a><button id="newClient" class="text-button" type="button">Registrar otra clienta</button></div>
     </section>
-    <p class="admin-link"><a href="admin.html">Acceso para administradoras</a></p>
   </main>
   <script src="registro.js"></script>
 </body>
