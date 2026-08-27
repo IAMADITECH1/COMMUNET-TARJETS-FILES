@@ -23,3 +23,5 @@ button:hover { background:#913b5c; } .form-message { min-height:20px; margin:4px
 @media (max-width:680px) { .app-shell { padding:10px 10px 50px; } .registration-panel { grid-template-columns:1fr; } }
 
 .reward-view{display:grid;gap:8px;width:min(100%,560px);margin:18px auto 0;padding:18px;text-align:center;border:2px solid #d17996;border-radius:18px;background:linear-gradient(135deg,#fff4f7,#f8d4df);color:#7b3e55;box-shadow:0 10px 24px rgba(125,65,84,.14)}.reward-view strong{font-family:Georgia,serif;font-size:1.35rem;color:#a74568}.reward-view span{font-size:.9rem}.reward-view b{font-size:.92rem}
+
+.folio-form{display:grid;gap:8px;margin-top:22px;text-align:left}.folio-form label{color:#684a56;font-size:.78rem;font-weight:700}.folio-form input{width:100%;padding:13px 14px;border:1px solid #e6bdc9;border-radius:10px;outline:none;font:inherit;background:#fffafd}.folio-form button{margin-top:4px}.folio-message{min-height:18px;margin:0;text-align:center;color:#a74568;font-size:.82rem}
