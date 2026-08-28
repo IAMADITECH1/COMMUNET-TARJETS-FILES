@@ -2,7 +2,7 @@
 * { box-sizing:border-box; }
 body { margin:0; min-width:320px; color:var(--ink); font-family:Arial,Helvetica,sans-serif; background:linear-gradient(145deg,#fff 0%,#fff5f8 55%,#f6c5d3 100%); }
 .signup-shell { width:min(100%,560px); margin:auto; padding:28px 16px 50px; }
-.signup-header { text-align:center; margin-bottom:22px; }.logo { display:block; width:min(100%,220px); height:auto; max-height:130px; object-fit:contain; margin:0 auto 18px; }
+.signup-header { text-align:center; margin-bottom:22px; }.logo { display:block; width:min(100%,440px); height:auto; max-height:260px; object-fit:contain; margin:0 auto 18px; }
 .eyebrow { margin:0 0 8px; color:var(--pink-dark); text-transform:uppercase; letter-spacing:.17em; font-size:.72rem; font-weight:700; }
 h1,h2 { font-family:Georgia,serif; font-weight:500; } h1 { margin:0 0 9px; font-size:clamp(2rem,7vw,3rem); } h2 { margin:0 0 9px; font-size:2rem; }
 .signup-header > p:last-child { margin:0; color:#6d5961; line-height:1.5; }.signup-card { padding:clamp(22px,6vw,40px); border:1px solid rgba(200,103,136,.22); border-radius:22px; background:rgba(255,255,255,.9); box-shadow:0 14px 40px rgba(125,65,84,.12); }
@@ -11,4 +11,4 @@ form { display:grid; gap:9px; } label { margin-top:7px; color:#684a56; font-size
 button,.secondary-button { display:block; width:100%; margin-top:12px; padding:14px 18px; border:0; border-radius:10px; color:#fff; background:var(--pink-dark); font:inherit; font-weight:700; text-align:center; text-decoration:none; cursor:pointer; } button:hover,.secondary-button:hover { background:#913b5c; }.message { min-height:20px; margin:6px 0 0; font-size:.84rem; }
 .success { text-align:center; }.success > p:not(.eyebrow):not(.folio-label) { color:#6d5961; line-height:1.45; }.folio-label { margin:17px 0 3px; color:#684a56; font-size:.78rem; text-transform:uppercase; letter-spacing:.13em; }.folio { display:block; color:var(--pink-dark); font-size:1.25rem; letter-spacing:.12em; }.qr { display:block; width:min(100%,260px); aspect-ratio:1; margin:18px auto; border-radius:12px; box-shadow:0 8px 22px rgba(125,65,84,.14); }.text-button { width:auto; margin:13px auto 0; padding:4px 8px; color:var(--pink-dark); background:transparent; font-size:.82rem; }.text-button:hover { color:#913b5c; background:transparent; }
 
-@media (max-width:480px){.signup-shell{padding:22px 12px 34px}.signup-header{margin-bottom:18px}.logo{width:min(100%,180px);max-height:105px;margin-bottom:12px}h1{font-size:clamp(1.9rem,9vw,2.5rem)}.signup-card{padding:22px 18px}}
+@media (max-width:480px){.signup-shell{padding:22px 12px 34px}.signup-header{margin-bottom:18px}.logo{width:min(100%,280px);max-height:170px;margin-bottom:12px}h1{font-size:clamp(1.9rem,9vw,2.5rem)}.signup-card{padding:22px 18px}}
